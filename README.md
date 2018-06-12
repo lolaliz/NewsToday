@@ -1,0 +1,2 @@
+# NewsToday
+Mongo News Scraper
