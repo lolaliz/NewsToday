@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--this is for testing purposes only need to convert to handlebars-->
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>NPR News Scraper</title>
+    
+  </head>
+  <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/">Mongo Scraper</a>
+                    </div>
+                    <div id="navbar" class="navbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/saved">Saved Articles</a></li>
+                            <li><button type="button" class="btn btn-primary" id="scrape">Scrape Articles</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    <div id="wrapper">
+      <h1>NPR News Scraper</h1>
+      
+      <div id="articles">
+       
+      </div>
+      <div id="notes"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
