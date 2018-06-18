@@ -36,7 +36,7 @@ $.getJSON("/articles", function(data) {
       $("#articles").append("<p data-id='" + data[i]._id + "'>" 
       + data[i].title + "<br />" 
       + data[i].link + "<br/>" + data[i].summary + "</p>");
-      $("#articles").append("<button 'id = saveArticle'>Save Article</button>")
+      $("#articles").append("<button  class= 'btn btn-outline-primary' 'id = saveArticle'>Saved</button>")
       
     }
   });
